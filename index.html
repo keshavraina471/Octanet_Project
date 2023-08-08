@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('ggg.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+    }
+    
+    .left {
+        display: inline-block;
+       /* border: 2px solid red;*/
+        position: absolute;
+        top: 25px;
+        left: 24px;
+    
+    }
+    
+    .left img {
+        width: 106px;
+        filter: invert(100%);
+    
+    
+    
+    }
+    
+    .left div {
+        text-align: center;
+        line-height: 15px;
+        font-size: 16px;
+    }
+    
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 30px auto;
+       /* border: 2px solid green;*/
+    }
+    
+    .right {
+        position: absolute;
+        top: 42px;
+        right: 34px;
+        display: inline-block;
+       /* border: 2px solid yellow;*/
+    
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+    
+        display: inline-block;
+        font-size: 16px;
+    
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 30px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        /*border: 2px solid grey;*/
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    
+    }
+    
+    .btn:hover {
+        background-color: grey;
+    
+    }
+    
+    .container {
+        /*border: 2px solid blue;*/
+        margin: 136px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 8px;
+        /* color: blue; */
+    
+    }
+    
+    .forms input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+       /* border: 2px solid black;*/
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .container button {
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="" srcset="">
+            <div>Keshav fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="forms">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="forms">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="forms">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="forms">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="forms">
+                <input type="number" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
